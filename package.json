@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/YuriAdonev/tm-service-auth/issues"
   },
-  "homepage": "https://github.com/YuriAdonev/tm-service-auth#readme"
+  "homepage": "https://github.com/YuriAdonev/tm-service-auth#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0"
+  }
 }
