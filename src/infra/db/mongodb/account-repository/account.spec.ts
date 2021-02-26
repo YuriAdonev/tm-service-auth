@@ -3,7 +3,6 @@ import { AccountMongoRepository } from './account'
 
 describe('Account Mongo Repository', () => {
   beforeAll(async () => {
-    // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
     await MongoHelper.connect(process.env.MONGO_URL || '')
   })
 
